@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [София Дубова](https://up.htmlacademy.ru/htmlcss/35/user/2048455).
-* Наставник: `Неизвестно`.
+* Наставник: `Юлия Антонова`(https://htmlacademy.ru/profile/talequale).
 
 ---
 
