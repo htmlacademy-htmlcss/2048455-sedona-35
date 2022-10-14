@@ -7,12 +7,10 @@
   <body>
     <header class="main-header">
       <nav class="navigation">
+        <a href="index.html">
+          <img class="header-logo" src="" alt="Логотип сайта CITY OF SEDONA">
+        </a>
         <ul class="navigation-list">
-          <li>
-            <a href="index.html">
-             <img class="header-logo" src="" alt="Логотип сайта CITY OF SEDONA">
-            </a>
-          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -43,8 +41,10 @@
       </nav>
     </header>
     <main class="main-index">
-      <h1 class="visually-hidden">SEDONA</h1>
-      <img class="logo" src="" alt="Логотип сайта SEDONA">
+      <section>
+        <h1 class="visually-hidden">SEDONA</h1>
+        <img class="logo" src="" alt="Логотип сайта SEDONA">
+      </section>
       <section class="about">
         <h2 class="visually-hidden">О Седоне</h2>
         <h3 class="about-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h3>
@@ -70,6 +70,7 @@
             <h3 class="advantages-title">Мало туристов</h3>
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+          <li>
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img class="advantages-image" src="" alt="Мост дьявола">
@@ -101,7 +102,7 @@
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
-          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
+          <input class="field" placeholder="Ваш e-mail" type="email" id="newsletter-email" name="newsletter-email" required>
           <button class="button newsletter-button" type="submit">Подписаться</button>
         </form>
       </section>
