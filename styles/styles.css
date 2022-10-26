@@ -19,11 +19,14 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  background-color: #F2F2F2;
+  width: 1280px;
+}
+
+.element {
+  margin: 0 auto;
+  width: 1200px;
   background-color: #FFFFFF;
-  background: #F2F2F2;
-  position: absolute;
-  padding: 0px 70px;
-gap: 30px;
 }
 
 .button {
@@ -43,18 +46,12 @@ gap: 30px;
   height: 20px;
 }
 
-.main-header {
-  color: #000000;
-  background-color: #FFFFFF;
-}
-
 .navigation-link {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
-  background-color: #FFFFFF;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -63,15 +60,6 @@ gap: 30px;
   background-image: url("../images/background/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-
-}
-
-.welcome {
-
-}
-
-.triangles {
-  size: 100% auto;
 }
 
 .about {
@@ -80,7 +68,6 @@ gap: 30px;
 }
 
 .about-title {
-
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -96,7 +83,6 @@ gap: 30px;
 
 .advantages-item {
   text-align: center;
-
 }
 
 .advantages-title {
@@ -118,14 +104,14 @@ gap: 30px;
 }
 
 .white-background {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .beautiful-road {
   background: rgba(131, 179, 211, 0.2);
 }
 
-.light-backgraund {
+.light-background {
   background: rgba(131, 179, 211, 0.12);
 }
 
@@ -135,7 +121,6 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 text-transform: uppercase;
-
 }
 
 .ask-text{
@@ -159,11 +144,10 @@ line-height: 36px;
 text-transform: uppercase;
 text-align: center;
 color: #FFFFFF;
-padding: 96px 258px 104px;
-background-image: url("../images/background/subscribe.png");
+padding: 96px 70px 104px;
+background-image: url("../images/background/subscribe.jpg");
 background-repeat: no-repeat;
 background-size: 100% auto;
-height: 414.86px;
 }
 
 .newsletter-text {
@@ -183,9 +167,10 @@ text-transform: none;
   color: #000000;
 }
 
-.footer-number {
+.page-footer-title {
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
-  width:
+  color: #000000;
+  text-decoration: none;
 }
