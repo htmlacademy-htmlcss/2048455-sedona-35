@@ -20,7 +20,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
-  width: 1280px;
+
 }
 
 .element {
@@ -39,11 +39,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background: #756157;
-}
-
-.button-want {
-  width: 92px;
-  height: 20px;
 }
 
 .navigation-link {
@@ -117,19 +112,19 @@ body {
 
 .ask {
   font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .ask-text{
   font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-color: #333333;
-text-align: center;
-text-transform: none;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+  text-transform: none;
 }
 
 .button-search {
@@ -139,22 +134,22 @@ text-transform: none;
 
 .newsletter {
   font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-transform: uppercase;
-text-align: center;
-color: #FFFFFF;
-padding: 96px 70px 104px;
-background-image: url("../images/background/subscribe.jpg");
-background-repeat: no-repeat;
-background-size: 100% auto;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 96px 70px 104px;
+  background-image: url("../images/background/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .newsletter-text {
   font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-text-transform: none;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
 }
 
 .newsletter-button {
