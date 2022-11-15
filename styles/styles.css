@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
+  min-height: 100vh;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -38,12 +38,14 @@ body {
   margin: 0 auto;
   width: 1200px;
   background-color: #FFFFFF;
+  flex-grow: 1;
 }
 
 .navigation {
   display: flex;
   width: 1060px;
   margin: 0 auto;
+  max-height: 64px;
 }
 
 .navigation-list {
@@ -55,6 +57,11 @@ body {
   flex-wrap: wrap;
 }
 
+.navigation-item {
+  display: block;
+  max-height: 24px;
+}
+
 .navigation-user {
   max-width: 300px;
   margin-left: 200px;
@@ -63,9 +70,10 @@ body {
 .navigation-user .navigation-link {
   margin: 0 auto;
   padding: 0;
-  padding-top: 24px;
+  padding-top: 22px;
   padding-left: 25px;
   padding-bottom: 23px;
+  padding-right: 10px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -78,8 +86,7 @@ body {
 .navigation-user .navigation-link-want {
   display: block;
   padding: 0;
-  margin-left: 20px;
-  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .button-want {
@@ -92,8 +99,11 @@ body {
 
 .logo-img {
   margin: 0;
+  margin-right: 30px;
   padding: 0;
   width: 140px;
+  display: grid;
+  height: 70px;
 }
 
 .button {
@@ -117,12 +127,8 @@ body {
   color: #000000;
   text-decoration: none;
   text-transform: capitalize;
-  padding: 20px 16px;
+  padding: 19px 16px 21px;
   margin: 0 auto;
-}
-
-.main-container {
-  flex-grow: 1;
 }
 
 .sedona-welcome {
@@ -356,6 +362,10 @@ body {
   padding: 14px 50px;
   width: 232px;
   border-radius: 0 4px 4px 0;
+}
+
+footer {
+  flex-shrink: 0;
 }
 
 .footer-social {
