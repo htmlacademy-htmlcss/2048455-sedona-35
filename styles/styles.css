@@ -136,6 +136,12 @@ body {
   min-height: 485px;
 }
 
+.triangles {
+  display: block;
+  margin-top: -61px;
+  fill: #FFFFFF;
+}
+
 .page-container {
   width: 1200px;
   margin: 0 auto;
