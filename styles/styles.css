@@ -397,10 +397,6 @@ body {
   line-height: 36px;
 }
 
-footer {
-  flex-shrink: 0;
-}
-
 .footer-social {
  margin-bottom: 0 auto;
  max-width: 190px;
@@ -430,6 +426,7 @@ footer {
 .page-footer {
   margin: 0;
   padding: 45px 0 2px;
+  flex-shrink: 0;
 }
 
 .footer-number {
